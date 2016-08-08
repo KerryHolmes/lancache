@@ -78,6 +78,7 @@ This is the default which is used for riot, hirez and sony it uses standard cach
 
 # Required DNS entries
 All of the required DNS entries are for each service are documented their block server in `sites/lancache-single.conf`.
+The entries have to be added to the server's host and to either the router or the client's host as well.
 
 You’ll notice that each entry starts with `lancache-XXXX` this is entry used in the listen directive so no editing of the config is required for IP allocation to each service. As we’re creating multiple server entries and each is capturing hostnames using the `_` wildcard each service must have its own IP e.g.
 ```
